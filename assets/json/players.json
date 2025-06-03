@@ -1,0 +1,542 @@
+[
+    {
+        "id": "90748cd1",
+        "first_name": null,
+        "last_name": "Alisson",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0003_GK-BG-ALISSON.png"
+    },
+    {
+        "id": "6a59151f",
+        "first_name": "Matz",
+        "last_name": "Sels",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0000_GK-BG-SELS.png"
+    },
+    {
+        "id": "15dbfb8d",
+        "first_name": "David",
+        "last_name": "Raya",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0001_GK-BG-RAYA.png"
+    },
+    {
+        "id": "8664c823",
+        "first_name": "Jordan",
+        "last_name": "Pickford",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0002_GK-BG-PICKFORD.png"
+    },
+    {
+        "id": "58ceae4d",
+        "first_name": "Mads",
+        "last_name": "Hermansen",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0004_GK-BG-HERMANSEN.png"
+    },
+    {
+        "id": "5f304340",
+        "first_name": "Dean",
+        "last_name": "Henderson",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0005_GK-BG-HENDERSON.png"
+    },
+    {
+        "id": "1011912c",
+        "first_name": null,
+        "last_name": "Ederson",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0006_GK-BG-EDERSON.png"
+    },
+    {
+        "id": "d9851aea",
+        "first_name": "Bernd",
+        "last_name": "Leno",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0007_GK-BG-LENO.png"
+    },
+    {
+        "id": "02590a2b",
+        "first_name": "Emi",
+        "last_name": "Martinez",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0008_GK-BG-MARTINEZ.png"
+    },
+    {
+        "id": "ccbcc673",
+        "first_name": "Aaron",
+        "last_name": "Ramsdale",
+        "positions": [
+            "GK"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0000s_0009_GK-BG-RAMSDALE.png"
+    },
+    {
+        "id": "e978c3fa",
+        "first_name": "Marc",
+        "last_name": "Cucurella",
+        "positions": [
+            "LB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0004s_0004_LB-BG-CUCURELLA.png"
+    },
+    {
+        "id": "1ed14de3",
+        "first_name": "Josko",
+        "last_name": "Gvardiol",
+        "positions": [
+            "LB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0004s_0002_LB-BG-GVARDIOL.png"
+    },
+    {
+        "id": "c3e4fbe0",
+        "first_name": "Milos",
+        "last_name": "Kerkez",
+        "positions": [
+            "LB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0004s_0001_LB-BG-KERKEZ.png"
+    },
+    {
+        "id": "a600f2bf",
+        "first_name": "Rayan",
+        "last_name": "Ait-Nouri",
+        "positions": [
+            "LB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0004s_0000_LB-BG-AITNOURI.png"
+    },
+    {
+        "id": "e4815101",
+        "first_name": "Antonee",
+        "last_name": "Robinson",
+        "positions": [
+            "LB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0004s_0003_LB-BG-ROBINSON.png"
+    },
+    {
+        "id": "e43f87a2",
+        "first_name": "Virgil",
+        "last_name": "Van Dijk",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0000_CB-BG-VANDIJK.png"
+    },
+    {
+        "id": "be00688b",
+        "first_name": "Ibrahima",
+        "last_name": "Konaté",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0001_CB-BG-KONATE.png"
+    },
+    {
+        "id": "7f5f3a57",
+        "first_name": null,
+        "last_name": "Gabriel",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0002_CB-BG-GABRIEL.png"
+    },
+    {
+        "id": "2d158650",
+        "first_name": "William",
+        "last_name": "Saliba",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0003_CB-BG-SALIBA.png"
+    },
+    {
+        "id": "1581e6b9",
+        "first_name": null,
+        "last_name": "Murillo",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0004_CB-BG-MURILLO.png"
+    },
+    {
+        "id": "48d00a6b",
+        "first_name": "Dan",
+        "last_name": "Burn",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0007_CB-BG-BURN.png"
+    },
+    {
+        "id": "fd0bd1a6",
+        "first_name": "Nikola",
+        "last_name": "Milenkovic",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0005_CB-BG-MILENKOVIC.png"
+    },
+    {
+        "id": "86661a2b",
+        "first_name": "Dean",
+        "last_name": "Huijsen",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0006_CB-BG-HUIJSEN.png"
+    },
+    {
+        "id": "54e033f5",
+        "first_name": "Marc",
+        "last_name": "Guéhi",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0008_CB-BG-GUEHI.png"
+    },
+    {
+        "id": "83e2f6cd",
+        "first_name": "James",
+        "last_name": "Tarkowski",
+        "positions": [
+            "CB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0006s_0009_CB-BG-TARKWOSKI.png"
+    },
+    {
+        "id": "1011aff8",
+        "first_name": "Trent",
+        "last_name": "Alexander-Arnold",
+        "positions": [
+            "RB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0002s_0000_RB-BG-ALEXANDERARNOLD.png"
+    },
+    {
+        "id": "a3a52958",
+        "first_name": "Ola",
+        "last_name": "Aina",
+        "positions": [
+            "RB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0002s_0001_RB-BG-AINA.png"
+    },
+    {
+        "id": "6adbe4fd",
+        "first_name": "Daniel",
+        "last_name": "Muñoz",
+        "positions": [
+            "RB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0002s_0002_RB-BG-MUNOZ.png"
+    },
+    {
+        "id": "02ac68d6",
+        "first_name": "Aaron",
+        "last_name": "Wan-Bissaka",
+        "positions": [
+            "RB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0002s_0004_RB-BG-WANBISSAKA.png"
+    },
+    {
+        "id": "9d836c92",
+        "first_name": "Djed",
+        "last_name": "Spence",
+        "positions": [
+            "RB"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0002s_0003_RB-BG-SPENCE.png"
+    },
+    {
+        "id": "5e6479a4",
+        "first_name": "Ryan",
+        "last_name": "Gravenberch",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0000_CM-BG-GRAVENBERCH.png"
+    },
+    {
+        "id": "b3cfde71",
+        "first_name": "Declan",
+        "last_name": "Rice",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0003_CM-BG-RICE.png"
+    },
+    {
+        "id": "f58de52a",
+        "first_name": "Alexis",
+        "last_name": "Mac Allister",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0001_CM-BG-MACALLISTER.png"
+    },
+    {
+        "id": "fa683ea4",
+        "first_name": "Bruno",
+        "last_name": "Guimarães",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0005_CM-BG-GUIMARAES.png"
+    },
+    {
+        "id": "8edd8af5",
+        "first_name": "Dominik",
+        "last_name": "Szoboszlai",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0002_CM-BG-SZOBOSZLAI.png"
+    },
+    {
+        "id": "8f0d670d",
+        "first_name": "Sandro",
+        "last_name": "Tonali",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0007_CM-BG-TONALI.png"
+    },
+    {
+        "id": "fddbf744",
+        "first_name": "Bruno",
+        "last_name": "Fernandes",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0008_CM-BG-FERNANDES.png"
+    },
+    {
+        "id": "3fe9a434",
+        "first_name": "Moisés",
+        "last_name": "Caicedo",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0004_CM-BG-CAICEDO.png"
+    },
+    {
+        "id": "d53b741f",
+        "first_name": "Morgan",
+        "last_name": "Gibbs-White",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0006_CM-BG-GIBBSWHITE.png"
+    },
+    {
+        "id": "94a03d02",
+        "first_name": "Morgan",
+        "last_name": "Rogers",
+        "positions": [
+            "CM"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0008s_0009_CM-BG-ROGERS.png"
+    },
+    {
+        "id": "e9e8ecdd",
+        "first_name": "Mohamed",
+        "last_name": "Salah",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0000_FW-BG-SALAH.png"
+    },
+    {
+        "id": "f81490df",
+        "first_name": "Bukayo",
+        "last_name": "Saka",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0001_FW-BG-SAKA.png"
+    },
+    {
+        "id": "cff0737a",
+        "first_name": "Cole",
+        "last_name": "Palmer",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0002_FW-BG-PALMER.png"
+    },
+    {
+        "id": "3e99b0d1",
+        "first_name": "Anthony",
+        "last_name": "Gordon",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0003_FW-BG-GORDON.png"
+    },
+    {
+        "id": "1811df56",
+        "first_name": "Bryan",
+        "last_name": "Mbeumo",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0004_FW-BG-MBEUMO.png"
+    },
+    {
+        "id": "e655c169",
+        "first_name": "Justin",
+        "last_name": "Kluivert",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0005_FW-BG-KLUIVERT.png"
+    },
+    {
+        "id": "d4a6ceaf",
+        "first_name": "Jacob",
+        "last_name": "Murphy",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0006_FW-BG-MURPHY.png"
+    },
+    {
+        "id": "0055c22c",
+        "first_name": "Anthony",
+        "last_name": "Elanga",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0007_FW-BG-ELANGA.png"
+    },
+    {
+        "id": "5f263ba3",
+        "first_name": "Karou",
+        "last_name": "Mitoma",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0008_FW-BG-MITOMA.png"
+    },
+    {
+        "id": "b5511e3f",
+        "first_name": "Jarrod",
+        "last_name": "Bowen",
+        "positions": [
+            "FW"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0010s_0009_FW-BG-BOWEN.png"
+    },
+    {
+        "id": "55cff083",
+        "first_name": "Erling",
+        "last_name": "Haaland",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0000_ST-BG-HAALAND.png"
+    },
+    {
+        "id": "67dcb007",
+        "first_name": "Alexander",
+        "last_name": "Isak",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0001_ST-BG-ISAK.png"
+    },
+    {
+        "id": "c927ca45",
+        "first_name": "Chris",
+        "last_name": "Wood",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0002_ST-BG-WOOD.png"
+    },
+    {
+        "id": "d899c2e1",
+        "first_name": "Jean-Philippe",
+        "last_name": "Mateta",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0003_ST-BG-MATETA.png"
+    },
+    {
+        "id": "d47e2063",
+        "first_name": "Ollie",
+        "last_name": "Watkins",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0004_ST-BG-WATKINS.png"
+    },
+    {
+        "id": "ac625876",
+        "first_name": "Yoane",
+        "last_name": "Wissa",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0005_ST-BG-WISSA.png"
+    },
+    {
+        "id": "9ddc50bc",
+        "first_name": "Matheus",
+        "last_name": "Cunha",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0006_ST-BG-CUNHA.png"
+    },
+    {
+        "id": "086d761c",
+        "first_name": "Liam",
+        "last_name": "Delap",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0007_ST-BG-DELAP.png"
+    },
+    {
+        "id": "56fea90c",
+        "first_name": "Danny",
+        "last_name": "Welbeck",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0008_ST-BG-WELBECK.png"
+    },
+    {
+        "id": "09796b73",
+        "first_name": "Jørgen",
+        "last_name": "Strand Larsen",
+        "positions": [
+            "ST"
+        ],
+        "image": "FANTOTS_VotingModule_Card_0012s_0009_ST-BG-STRANDLARSEN.png"
+    }
+]
