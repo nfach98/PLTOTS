@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  drift: ^2.11.0 # Check for the latest version of drift
+  path_provider: ^2.0.0 # Check for latest version
+  path: ^1.8.0 # Check for latest version
+  provider: ^6.0.0 # Check for latest version
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -39,6 +43,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  drift_dev: ^2.11.0 # Should match drift version
+  build_runner: ^2.0.0 # Check for latest version
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
