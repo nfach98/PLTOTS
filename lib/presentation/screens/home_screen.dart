@@ -134,7 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Football Team Selector'),
+        title: const Text('Home Screen'),
       ),
       body: Consumer<PlayerProvider>(
         builder: (context, playerProvider, child) {
