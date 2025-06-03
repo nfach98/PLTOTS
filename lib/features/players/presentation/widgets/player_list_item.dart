@@ -6,7 +6,7 @@ import 'package:provider/provider.dart'; // For Provider.of
 class PlayerListItem extends StatelessWidget {
   final Player player;
 
-  const PlayerListItem({Key? key, required this.player}) : super(key: key);
+  const PlayerListItem({super.key, required this.player});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,8 @@ class PlayerListItem extends StatelessWidget {
     // Use a Consumer or Selector if you need the widget to rebuild when isPlayerSelected changes for THIS player.
     // For simplicity here, we rely on the parent list to rebuild.
     final bool isSelected = playerProvider.isPlayerSelected(player.id);
-    final bool teamIsFull = playerProvider.selectedPlayers.length >= 11 && !isSelected;
+    final bool teamIsFull =
+        playerProvider.selectedPlayers.length >= 11 && !isSelected;
 
     return Card(
       elevation: 2.0,
@@ -23,15 +24,22 @@ class PlayerListItem extends StatelessWidget {
         // leading: player.image.isNotEmpty
         //     ? Image.network(player.image, width: 50, height: 50, fit: BoxFit.cover, errorBuilder: (context, error, stackTrace) => Icon(Icons.person))
         //     : Icon(Icons.person, size: 50), // Placeholder if no image
-        title: Text('${player.firstName} ${player.lastName}', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: Text('${player.firstName} ${player.lastName}',
+            style: const TextStyle(fontWeight: FontWeight.bold)),
         subtitle: Text(player.positions.join(', ')),
         trailing: Icon(
           isSelected ? Icons.check_circle : Icons.add_circle_outline,
-          color: isSelected ? Colors.green : (teamIsFull ? Colors.grey : Colors.blue),
+          color: isSelected
+              ? Colors.green
+              : (teamIsFull ? Colors.grey : Colors.blue),
         ),
-        onTap: teamIsFull && !isSelected ? null : () { // Disable tap if team is full and player not already selected
-          playerProvider.selectPlayer(player.id); // selectPlayer handles both selection and deselection
-        },
+        onTap: teamIsFull && !isSelected
+            ? null
+            : () {
+                // Disable tap if team is full and player not already selected
+                playerProvider.selectPlayer(player
+                    .id); // selectPlayer handles both selection and deselection
+              },
       ),
     );
   }

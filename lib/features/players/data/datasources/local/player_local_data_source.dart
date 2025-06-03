@@ -1,4 +1,4 @@
-import '../../../../domain/model/player.dart'; // Domain player
+import '../../../domain/model/player.dart'; // Domain player
 import 'app_database.dart'; // Drift's PlayerData
 
 abstract class PlayerLocalDataSource {
@@ -35,16 +35,17 @@ class PlayerLocalDataSourceImpl implements PlayerLocalDataSource {
       id: playerData.id,
       firstName: playerData.firstName,
       lastName: playerData.lastName,
-      positions: playerData.positions, // Assumes PositionListConverter handles this
+      positions:
+          playerData.positions, // Assumes PositionListConverter handles this
       image: playerData.image,
     );
   }
 
   @override
   Stream<List<Player>> getPlayers() {
-    return database.watchAllPlayers().map((driftPlayers) =>
-      driftPlayers.map(_driftToDomainPlayer).toList()
-    );
+    return database
+        .watchAllPlayers()
+        .map((driftPlayers) => driftPlayers.map(_driftToDomainPlayer).toList());
   }
 
   @override
@@ -72,9 +73,9 @@ class PlayerLocalDataSourceImpl implements PlayerLocalDataSource {
 
   @override
   Stream<List<Player>> getSelectedPlayers() {
-    return database.watchFullSelectedPlayerDetails().map((driftPlayers) =>
-      driftPlayers.map(_driftToDomainPlayer).toList()
-    );
+    return database
+        .watchFullSelectedPlayerDetails()
+        .map((driftPlayers) => driftPlayers.map(_driftToDomainPlayer).toList());
   }
 
   @override

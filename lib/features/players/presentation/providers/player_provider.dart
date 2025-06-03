@@ -59,7 +59,8 @@ class PlayerProvider with ChangeNotifier {
     try {
       _getPlayersUseCase().listen((players) {
         _availablePlayers = players;
-        _setLoading(false); // Potentially set loading false earlier if stream is long-lived
+        _setLoading(
+            false); // Potentially set loading false earlier if stream is long-lived
         notifyListeners();
       }, onError: (e) {
         _setError(e.toString());
