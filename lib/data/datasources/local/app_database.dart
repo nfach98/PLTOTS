@@ -13,10 +13,10 @@ import 'selected_player_table.dart';
 part 'app_database.g.dart'; // Ensure this matches the output file name
 
 @DriftDatabase(tables: [Players, SelectedPlayers])
-class AppDatabase extends _\$AppDatabase {
+class AppDatabase extends _$AppDatabase {
   AppDatabase() : super(_openConnection());
 
-  AppDatabase.test(QueryExecutor e) : super(e); // Constructor for testing
+  AppDatabase.test(super.e); // Constructor for testing
 
   @override
   int get schemaVersion => 1;
@@ -24,30 +24,32 @@ class AppDatabase extends _\$AppDatabase {
   // Methods for interacting with Players table
   Future<List<PlayerData>> getAllPlayers() => select(players).get();
   Stream<List<PlayerData>> watchAllPlayers() => select(players).watch();
-  Future<void> insertPlayer(PlayerData player) => into(players).insert(player, mode: InsertMode.insertOrReplace);
+  Future<void> insertPlayer(PlayerData player) =>
+      into(players).insert(player, mode: InsertMode.insertOrReplace);
   Future<void> insertPlayers(List<PlayerData> playerList) async {
     await batch((batch) {
       batch.insertAll(players, playerList, mode: InsertMode.insertOrReplace);
     });
   }
-  Future<PlayerData?> getPlayerById(String id) => (select(players)..where((tbl) => tbl.id.equals(id))).getSingleOrNull();
+
+  Future<PlayerData?> getPlayerById(String id) =>
+      (select(players)..where((tbl) => tbl.id.equals(id))).getSingleOrNull();
 
   // Methods for interacting with SelectedPlayers table
-  Stream<List<SelectedPlayer>> watchSelectedPlayers() => select(selectedPlayers).watch();
+  Stream<List<SelectedPlayer>> watchSelectedPlayers() =>
+      select(selectedPlayers).watch();
 
   Future<List<PlayerData>> getFullSelectedPlayerDetails() async {
     // Join SelectedPlayers with Players to get full PlayerData
-    final query = select(selectedPlayers).join([
-      innerJoin(players, players.id.equalsExp(selectedPlayers.playerId))
-    ]);
+    final query = select(selectedPlayers).join(
+        [innerJoin(players, players.id.equalsExp(selectedPlayers.playerId))]);
 
     return query.map((row) => row.readTable(players)).get();
   }
 
   Stream<List<PlayerData>> watchFullSelectedPlayerDetails() {
-    final query = select(selectedPlayers).join([
-      innerJoin(players, players.id.equalsExp(selectedPlayers.playerId))
-    ]);
+    final query = select(selectedPlayers).join(
+        [innerJoin(players, players.id.equalsExp(selectedPlayers.playerId))]);
 
     return query.map((row) => row.readTable(players)).watch();
   }
@@ -57,9 +59,9 @@ class AppDatabase extends _\$AppDatabase {
     final currentSelected = await select(selectedPlayers).get();
     if (currentSelected.length < 11) {
       await into(selectedPlayers).insert(
-        SelectedPlayersCompanion.insert(playerId: playerId),
-        mode: InsertMode.insertOrIgnore // Ignore if already selected
-      );
+          SelectedPlayersCompanion.insert(playerId: playerId),
+          mode: InsertMode.insertOrIgnore // Ignore if already selected
+          );
     } else {
       // Optionally throw an error or handle the "team full" case
       print("Team is full. Cannot select more than 11 players.");
@@ -67,7 +69,8 @@ class AppDatabase extends _\$AppDatabase {
   }
 
   Future<void> removePlayerFromSelection(String playerId) =>
-      (delete(selectedPlayers)..where((tbl) => tbl.playerId.equals(playerId))).go();
+      (delete(selectedPlayers)..where((tbl) => tbl.playerId.equals(playerId)))
+          .go();
 
   Future<void> clearSelection() => delete(selectedPlayers).go();
 }

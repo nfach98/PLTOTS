@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import '../../domain/model/player.dart';
-import '../providers/player_provider.dart';
 import 'player_list_item.dart';
 
 class PlayerListView extends StatelessWidget {
   final List<Player> players;
 
-  const PlayerListView({Key? key, required this.players}) : super(key: key);
+  const PlayerListView({super.key, required this.players});
 
   @override
   Widget build(BuildContext context) {

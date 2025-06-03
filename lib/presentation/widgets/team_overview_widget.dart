@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/player_provider.dart';
-import '../../domain/model/player.dart';
 
 class TeamOverviewWidget extends StatelessWidget {
-  const TeamOverviewWidget({Key? key}) : super(key: key);
+  const TeamOverviewWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,26 +23,29 @@ class TeamOverviewWidget extends StatelessWidget {
                 children: [
                   Text(
                     'Selected Team (${selectedPlayers.length}/11)',
-                    style: Theme.of(context).textTheme.headline6,
+                    style: Theme.of(context).textTheme.headlineSmall,
                   ),
                   if (selectedPlayers.isNotEmpty)
                     TextButton(
                       onPressed: () {
                         playerProvider.clearTeamSelection();
                       },
-                      child: Text('Clear All'),
                       style: TextButton.styleFrom(foregroundColor: Colors.red),
+                      child: const Text('Clear All'),
                     )
                 ],
               ),
               if (teamIsFull)
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 4.0),
-                  child: Text('Team is full!', style: TextStyle(color: Colors.green, fontWeight: FontWeight.bold)),
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: 4.0),
+                  child: Text('Team is full!',
+                      style: TextStyle(
+                          color: Colors.green, fontWeight: FontWeight.bold)),
                 ),
               const SizedBox(height: 8.0),
               if (selectedPlayers.isEmpty)
-                const Text('No players selected yet. Tap on a player to add them to your team.'),
+                const Text(
+                    'No players selected yet. Tap on a player to add them to your team.'),
               if (selectedPlayers.isNotEmpty)
                 Wrap(
                   spacing: 8.0,
@@ -57,7 +59,7 @@ class TeamOverviewWidget extends StatelessWidget {
                       onDeleted: () {
                         playerProvider.removePlayer(player.id);
                       },
-                      deleteIcon: Icon(Icons.cancel, size: 18),
+                      deleteIcon: const Icon(Icons.cancel, size: 18),
                     );
                   }).toList(),
                 ),
