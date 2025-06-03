@@ -34,6 +34,7 @@ dependencies:
   path_provider: ^2.0.0 # Check for latest version
   path: ^1.8.0 # Check for latest version
   provider: ^6.0.0 # Check for latest version
+  go_router: ^14.2.0 # Check for latest version
 
 
   # The following adds the Cupertino Icons font to your application.
