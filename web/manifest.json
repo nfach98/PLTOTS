@@ -1,6 +1,6 @@
 {
-    "name": "pl_tots",
-    "short_name": "pl_tots",
+    "name": "pl_tots_app",
+    "short_name": "pl_tots_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

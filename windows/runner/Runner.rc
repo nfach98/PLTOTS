@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "pl_tots" "\0"
+            VALUE "FileDescription", "pl_tots_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "pl_tots" "\0"
+            VALUE "InternalName", "pl_tots_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "pl_tots.exe" "\0"
-            VALUE "ProductName", "pl_tots" "\0"
+            VALUE "OriginalFilename", "pl_tots_app.exe" "\0"
+            VALUE "ProductName", "pl_tots_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
